@@ -1,20 +1,13 @@
 footer
-	background: url(../img/hero-bg.jpg) center center
-	background-size: cover
-	
+	@extend %bg-img
+	background-image: url(/assets/img/#{$logo-path}), url(/assets/img/#{$hero-path})
 	.lockup
 		padding: 50px 30px
 		+clearfix
-		.logo
-			+size(50px)
-			float: left
-			margin-right: 30px
-
-			path
-				fill: rgba(0,0,0,0.3)
 
 		.content-wrap
 			float: left
+			margin-left: 80px
 
 			.copyright
 				margin: 0
@@ -28,4 +21,4 @@ footer
 				margin: 30px
 
 			&:hover
-				color: rgba (0,0,0,1)
+				color: rgba (0,0,0,0.7)

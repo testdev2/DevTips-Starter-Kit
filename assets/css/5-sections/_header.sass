@@ -1,8 +1,9 @@
 header
+	@extend %bg-img
 	height: 450px
-	background: url(../img/hero-bg.jpg) center center
-	background-size: cover
-
+	background-position: 30px 20px 50% 50%
+	background-image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
+	
 	.logo
 		+size(50px)
 		float: left
