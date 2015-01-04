@@ -9,10 +9,10 @@ avatar: "travitar.jpg"
 blurb: <p><strong>Travis specializes in making things for human people. </strong> Most of the things he makes are digital interfaces but he also puts effort into crafting next-level beats and YouTube videos about making codes happen.</p>
 
 menu:
-- {name: About Me, url: '#'}
-- {name: Work, url: '#'}
-- {name: Clients, url: '#'}
-- {name: Contact, url: '#'}
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
 
 skills:
 - {name: Communication, value: '9'}
@@ -23,3 +23,13 @@ skills:
 - {name: Visual Design, value: '5'}
 - {name: UX Design, value: '8'}
 - {name: Programming, value: '6'}
+
+projects:
+- {name: Typo International Design Talks, folder: 'proj-1'}
+- {name: City-IN website concept, folder: 'proj-2'}
+- {name: Crisp Icons, folder: 'proj-3'}
+- {name: Flat Mobile UI/UX Concept, folder: 'proj-4'}
+- {name: Fresh It Up, folder: 'proj-5'}
+- {name: Timeline Page, folder: 'proj-6'}
+- {name: Weather Dashboard, folder: 'proj-7'}
+- {name: Stripes & Co, folder: 'proj-8'}

@@ -1,0 +1,19 @@
+<section class="alt-section">
+
+	<h3 id="work">Work</h3>
+
+	<div class="thumb-container">
+
+		{% for project in site.data.portfolio.projects%}
+		<a href="" class="thumb-unit" style="background-image(/assets/img/work/{{ project.folder }}/thumb.jpg);">
+
+			<div class="thumb-overlay">
+				<strong>{{ project.name }}</strong>
+				<div class="zoom-icon"> {% include icons/icon-zoom.html %}</div>
+			</div>
+		{% endfor %}
+		
+		</a>
+	</div>
+
+</section>
