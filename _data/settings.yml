@@ -35,3 +35,16 @@ projects:
 - {name: Timeline Page, folder: 'proj-6'}
 - {name: Weather Dashboard, folder: 'proj-7'}
 - {name: Stripes & Co, folder: 'proj-8'}
+
+clients:
+- {avatar: 'face-aaroni.jpg', name: 'Scott Summers', title: 'Director of Design Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet</strong>, etiam vitae elit leo in torquent, nullam in libero mattis, aut aenean adipiscing lacus donec dis, nec pharetra viverra nulla sed donec porta, magna condimentum mollis nulla wisi. Lacinia imperdiet justo magna repudiandae, duis metus ut nibh tortor dictum metus. Magna eget a et. Amet duis elit diam, augue nec semper. Eros proin vitae, tellus amet.</p>', logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg', name: 'Scott Summers', title: 'Director of Design Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet</strong>, etiam vitae elit leo in torquent, nullam in libero mattis, aut aenean adipiscing lacus donec dis, nec pharetra viverra nulla sed donec porta, magna condimentum mollis nulla wisi. Lacinia imperdiet justo magna repudiandae, duis metus ut nibh tortor dictum metus. Magna eget a et. Amet duis elit diam, augue nec semper. Eros proin vitae, tellus amet.</p>', logo: 'logo2.png'}
+- {avatar: 'face-jackiesaik.jpg', name: 'Scott Summers', title: 'Director of Design Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet</strong>, etiam vitae elit leo in torquent, nullam in libero mattis, aut aenean adipiscing lacus donec dis, nec pharetra viverra nulla sed donec porta, magna condimentum mollis nulla wisi. Lacinia imperdiet justo magna repudiandae, duis metus ut nibh tortor dictum metus. Magna eget a et. Amet duis elit diam, augue nec semper. Eros proin vitae, tellus amet.</p>', logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg', name: 'Scott Summers', title: 'Director of Design Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet</strong>, etiam vitae elit leo in torquent, nullam in libero mattis, aut aenean adipiscing lacus donec dis, nec pharetra viverra nulla sed donec porta, magna condimentum mollis nulla wisi. Lacinia imperdiet justo magna repudiandae, duis metus ut nibh tortor dictum metus. Magna eget a et. Amet duis elit diam, augue nec semper. Eros proin vitae, tellus amet.</p>', logo: 'logo4.png'}
+
+social:
+- {icon: 'twitter', link: 'http://twitter,com/devtipsshow'}
+- {icon: 'dribbble', link: 'https://dribble.com/travisneilson'}
+- {icon: 'behance', link: 'https://www.behancenet/travisneilson'}
+- {icon: 'youtube', link: 'https://youtube.com'}
+- {icon: 'linkedin', link: 'https://linkedin.com'}
