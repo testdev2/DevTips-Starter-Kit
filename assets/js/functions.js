@@ -1,15 +1,15 @@
-$( document ).ready(function() {
+$(function(){
 
 	smoothScroll(300);
-	workBelt();
-	workLoad();
-	//clientStuff();
+	//workBelt();
+	//workLoad();
+	clientStuff();
 	//$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
 	//$(".biglink").fitText(1.5);
 });
 
 function smoothScroll(duration){
-	$('a[href^="#"').on('click', function(event){
+	$('a[href^="#"]').on('click', function(event){
 
 		var target = $( $(this).attr('href'))
 
@@ -45,7 +45,8 @@ function workLoad(){
 			newTitle = $this.find('strong').text(),
 			newFolder = $this.data('folder'),
 			spinner = '<div class="loader">Loading...</div>',
-			newHTML = '/work/' + newFolder +'.html';
+			newHTML = 'work/' + newFolder;
+
 		$('.project-load').html(spinner).load(newHTML);
 		$('.project-title').text(newTitle);
 	});
@@ -54,9 +55,9 @@ function workLoad(){
 function clientStuff(){
 	$('.client-unit').first().addClass('active-client');
 	$('.client-logo').first().addClass('active-client');
-	$('.client-mobile-nav span').first().addClass('active-client');
+	$('.clients-mobile-nav span').first().addClass('active-client');
 
-	$('.client-logo, .client-mobile-nav span').click(function(){
+	$('.client-logo, .clients-mobile-nav span').click(function(){
 		var $this = $(this),
 			$siblings = $this.parent().children(),
 			position = $siblings.index($this);
