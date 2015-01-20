@@ -1,8 +1,8 @@
 $(function(){
 
 	smoothScroll(300);
-	//workBelt();
-	//workLoad();
+	workBelt();
+	workLoad();
 	clientStuff();
 	//$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
 	//$(".biglink").fitText(1.5);
@@ -67,7 +67,7 @@ function clientStuff(){
 		$this.addClass('active-client');
 	});
 
-	$('.client-control-next, client-control-prev').click(function(){
+	$('.client-control-next, .client-control-prev').click(function(){
 
 		var $this = $(this),
 			curActiveClient = $('.clients-belt').find('.active-client'),
