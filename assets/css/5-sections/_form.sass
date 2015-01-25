@@ -1,52 +1,56 @@
 form
-	max-width: 450px
+	max-width: 600px
 	margin: 0 auto 50px
+		
 
-	input, textarea
-		border: 3px solid $accent
-		width: 100%
-		+box-sizing(border-box)
-		padding: 10px
+input
+	background: none
+	border: 3px solid $accent
+	padding: 15px 40px
+	font-size: 18px
+	display: inline-block
 
-		&:focus
-			outline: none
-			border-color: $accent-light
+	&:focus,
+	&:active
+		outline: none
+		border-color: $accent-light
 
-	text-area
-		height: 10em
+	&[type="text"],
+	&[type="email"]
+		border: none
+		border: solid 2px $accent
 
-	.submit-wrap
-		text-align: right
-
-	[type="submit"]
-		background: $accent
+	&[type="submit"]
 		color: white
-		font-size: 18px
+		background: $accent
+		
 		text-transform: uppercase
-		width: 33%
 
 		&:hover
 			background: $accent-light
 
 
-
+.contact-info-group
+	display: inline-block
+	margin-right: 20px
+	position: relative
 	
-	.contact-info-group
-
-		label
-			width: 48%
-			float: left
-			+box-sizing(border-box)
-
-			&:nth-child(1)
-				padding-right: 10px
-			&:nth-child(2)
-				padding-left: 10px
-
+	input
+		padding: 15px 0px
 
 	label
-		display: block
-		margin-bottom: 20px
+		+position(absolute, 50% null null 0px)
+		+transform(translateY(-50%))
+		font:
+			family: $georgia
+			style: italic
+			size: 18px
+		color: #999
+		pointer-events: none
+		+transition
 
-		span
-			display: block
+	input:focus + label,
+	input.has-value + label
+		top: -10px
+		font-size: 12px
+		color: #aaa

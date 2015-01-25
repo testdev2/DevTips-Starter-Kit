@@ -4,8 +4,9 @@ $(function(){
 	workBelt();
 	workLoad();
 	clientStuff();
-	//$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
-	//$(".biglink").fitText(1.5);
+	coolForm();
+	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
+	$(".biglink").fitText(1.5);
 });
 
 function smoothScroll(duration){
@@ -120,3 +121,16 @@ function clientStuff(){
 	});
 	};
 })( jQuery );
+
+function coolForm(){
+	$('.awesome-form .contact-info-group input').focusout(function(){
+		var text = $(this).val();
+
+		if(text === ""){
+			$(this).removeClass('has-value');
+		}
+		else{
+			$(this).addClass('has-value');
+		}
+	});
+}
